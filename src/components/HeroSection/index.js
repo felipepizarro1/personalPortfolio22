@@ -22,7 +22,7 @@ const HeroSection = () => {
             <HeroP>I'm Felipe Pizarro, Junior Front End Developer
             </HeroP>
             <HeroBtnWrapper>
-                <Button to="contact" onMouseEnter={onHover} onMouseLeave={onHover} >Contact {hover ? <ArrowForward /> : <ArrowRight/>}
+                <Button to="contact" onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true' >Contact {hover ? <ArrowForward /> : <ArrowRight/>}
                 </Button>
             </HeroBtnWrapper>
         </HeroContent>
