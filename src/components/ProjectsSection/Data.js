@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: 'React App built for the graduation of the Full Stack Development bootcamp.',
     buttonLabel: 'View',
     imgStart: false,
-    img: require('../../images/svg-1.svg'),
+    img: require('../../images/svg-3.svg').default,
     alt: 'bar',
     dark: true,
     primary: true,

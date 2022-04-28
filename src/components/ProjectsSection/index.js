@@ -1,9 +1,9 @@
 import React from 'react'
-import { Button } from 'react-scroll'
+import { Button } from '../ButtonElemens'
 import { InfoContainer, InfoWrapper, InfoRow, Column1, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, Colum2, ImgWrap, Img } from './ProjectsElements'
 
 
-const ProjectsSection = () => {
+const ProjectsSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt  }) => {
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
