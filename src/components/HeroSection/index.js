@@ -18,6 +18,11 @@ const HeroSection = () => {
             <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg>
         <HeroContent>
+        <div class="container">
+    <div class="glitch" data-text="Hello">Hello</div>
+     <div class="glow">Hello</div>
+    </div>
+    <div class="scanlines"></div>
             <HeroH1>Hello There!</HeroH1>
             <HeroP>I'm Felipe Pizarro, Junior Front End Developer
             </HeroP>
